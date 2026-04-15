@@ -1,1 +1,296 @@
 @charset "UTF-8";
+.question--title {
+  font-size: 20px;
+}
+
+.q5-group,
+.q5-wrap-group,
+.q5-align-group,
+.q5-grid {
+  margin-bottom: 80px;
+}
+
+.q5-row,
+.q5-wrap-row,
+.q5-align-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 65px;
+  height: 30px;
+  margin-right: 20px;
+  background-color: #00bbdd;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Q5-1 */
+.q5-row-1-left {
+  flex-direction: row;
+}
+
+.q5-row-1-right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.q5-row-2 {
+  flex-direction: column;
+}
+
+.q5-row-2 .item,
+.q5-row-3 .item {
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+
+.q5-row-3 {
+  flex-direction: column-reverse;
+}
+
+/* Q5-2 */
+.q5-wrap-no {
+  flex-wrap: nowrap;
+}
+
+.q5-wrap-yes {
+  flex-wrap: wrap;
+}
+
+.q5-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Q5-3 */
+.q5-align-start {
+  justify-content: flex-start;
+}
+
+.q5-align-end {
+  justify-content: flex-end;
+}
+
+.q5-align-center {
+  justify-content: center;
+}
+
+.q5-align-between {
+  justify-content: space-between;
+}
+
+.q5-align-between .item,
+.q5-align-around .item {
+  margin-right: 0;
+}
+
+.q5-align-around {
+  justify-content: space-around;
+}
+
+.question--title {
+  font-size: 20px;
+}
+
+.q5-group,
+.q5-wrap-group,
+.q5-align-group,
+.q5-grid-group {
+  margin-bottom: 80px;
+}
+
+.q5-row,
+.q5-wrap-row,
+.q5-align-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 65px;
+  height: 30px;
+  margin-right: 20px;
+  background-color: #00bbdd;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Q5-1 */
+.q5-row-1-left {
+  flex-direction: row;
+}
+
+.q5-row-1-right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.q5-row-2 {
+  flex-direction: column;
+}
+
+.q5-row-2 .item,
+.q5-row-3 .item {
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+
+.q5-row-3 {
+  flex-direction: column-reverse;
+}
+
+/* Q5-2 */
+.q5-wrap-no {
+  flex-wrap: nowrap;
+}
+
+.q5-wrap-yes {
+  flex-wrap: wrap;
+}
+
+.q5-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Q5-3 */
+.q5-align-start {
+  justify-content: flex-start;
+}
+
+.q5-align-end {
+  justify-content: flex-end;
+}
+
+.q5-align-center {
+  justify-content: center;
+}
+
+.q5-align-between {
+  justify-content: space-between;
+}
+
+.q5-align-between .item,
+.q5-align-around .item {
+  margin-right: 0;
+}
+
+.q5-align-around {
+  justify-content: space-around;
+}
+
+/* Q5-4 */
+.q5-grid-basic,
+.q5-grid-fluid,
+.q5-grid-large,
+.q5-grid-layout {
+  margin-bottom: 20px;
+}
+
+/* 1段目 小さいグリッド */
+.q5-grid-basic {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 10px;
+}
+
+.q5-grid-basic .item {
+  width: auto;
+  height: 30px;
+  margin: 0;
+  padding: 5px;
+  line-height: 1;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* 2段目 横長グリッド */
+.q5-grid-fluid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.q5-grid-fluid .item {
+  width: auto;
+  height: 35px;
+  margin: 0;
+  padding: 10px;
+  line-height: 1;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* 3段目 大きいグリッド */
+.q5-grid-large {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.q5-grid-large .item {
+  width: auto;
+  height: 250px;
+  margin: 0;
+  padding: 10px;
+  line-height: 1;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* 4段目 変形グリッド */
+.q5-grid-layout {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 130px 130px 130px;
+  gap: 10px;
+}
+
+.grid-box {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.q5-grid-layout .item1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  background-color: #f00000;
+}
+
+.q5-grid-layout .item2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  background-color: #22b8d6;
+}
+
+.q5-grid-layout .item3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  background-color: #18f000;
+}
+
+.q5-grid-layout .item4 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background-color: #dede00;
+}
+
+.q5-grid-layout .item5 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: #22b8d6;
+}
+
+.q5-grid-layout .item6 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: #22b8d6;
+}

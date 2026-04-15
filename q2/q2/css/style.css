@@ -1,2 +1,25 @@
 @charset "UTF-8";
 /* 回答はここから */
+.card-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  background-color: #6d5b5b;
+  padding: 10px;
+  display: flex;
+}
+
+.card-inner {
+  background-color: #d2b48c;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card-inner p {
+  line-height: 1.6;
+}

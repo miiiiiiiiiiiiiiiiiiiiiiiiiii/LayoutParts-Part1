@@ -1,1 +1,55 @@
 @charset "UTF-8";
+.main--area {
+  margin-top: 40px;
+}
+
+.row {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  table-layout: auto;
+}
+
+.box {
+  display: table-cell;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fixed {
+  width: 300px;
+}
+
+.row-bottom .fixed {
+  width: 400px;
+}
+
+.box-red {
+  background-color: #ff7b7b;
+}
+
+.box-blue {
+  background-color: #7086ff;
+}
+
+.box-yellow {
+  background-color: #fff27b;
+}
+
+.box-green {
+  background-color: #7bf191;
+}
+
+.box-pink {
+  background-color: #ff7be2;
+}
+
+.box-orange {
+  background-color: #ffcc7b;
+}
+
+.box-sky {
+  background-color: #7bf2ff;
+}

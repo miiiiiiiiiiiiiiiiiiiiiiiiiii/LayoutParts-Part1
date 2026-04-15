@@ -1,1 +1,41 @@
-@charset "UTF-8";
+.cell--table {
+  width: 100%;
+  font-size: 18px; 
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #666;
+}
+
+.cell--table th,
+.cell--table td {
+  border: 1px solid #666;
+  font-size: 18px; 
+}
+
+.cell--table thead th,
+.cell--table tbody th,
+.cell--table tfoot th {
+  background-color: #3a9b4a;
+  color: #000;
+  line-height: 26px; 
+}
+
+.cell--table tbody td,
+.cell--table tfoot td {
+  background-color: #bfe3b5;
+  line-height: 22px; 
+}
+
+.cell--table tbody tr:nth-child(even) td,
+.cell--table tbody tr:nth-child(even) th {
+  background-color: #b3b3b3;
+  line-height: 22px; 
+}
+
+.cell--table tfoot th {
+  border-top: 1px solid #fff; 
+}
+
+.cell--table tfoot td {
+  border-top: 1px solid #666;
+}
