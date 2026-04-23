@@ -1,38 +1,38 @@
+@charset "UTF-8";
+/* 回答はここから */
+
 .cell--table {
   width: 100%;
   table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  font-size: 18px;
   text-align: center;
-  border: 1px solid #000;
-}
-
-.cell--table th,
-.cell--table td {
-  border: 1px solid #000;
-  font-size: 18px;
-  padding: 8px 0; 
 }
 
 .cell--table thead th,
 .cell--table tbody th,
 .cell--table tfoot th {
-  background: #3f9c4a;
+  background: #319c4a;
   line-height: 26px;
+}
+
+.cell--table th,
+.cell--table td {
+  border: 1px solid #000000;
+  padding: 10px 0;
+  font-size: 18px;
 }
 
 .cell--table tbody td,
 .cell--table tfoot td {
-  background: #d5ffcf;
+  font-size: 16px;
+  background: #d5ffc7;
   line-height: 22px;
 }
 
 .cell--table tbody tr:nth-child(even) td {
-  background: #b3b3b3;
+  background: #bcbcbc;
 }
 
 .cell--table tfoot th,
 .cell--table tfoot td {
-  border-top: 1px double #fff;
+  border-top: 1px double #ffffff;
 }

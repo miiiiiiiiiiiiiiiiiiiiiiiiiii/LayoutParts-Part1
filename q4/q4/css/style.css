@@ -1,53 +1,47 @@
 @charset "UTF-8";
 .main--area {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .row {
   display: table;
   width: 100%;
-  margin-bottom: 30px;
-  table-layout: auto;
+  margin-bottom: 50px;
 }
 
 .box {
   display: table-cell;
-  height: 50px;
-  font-size: 18px;
+  padding: 20px;
   text-align: center;
   vertical-align: middle;
 }
 
-.fixed {
+.box-red {
+  background-color: #ff7b7b;
   width: 300px;
 }
 
-.row-bottom .fixed {
-  width: 400px;
-}
-
-.box-red {
-  background-color: #ff7b7b;
-}
-
 .box-blue {
-  background-color: #7086ff;
+  background-color: #7b86ff;
 }
 
 .box-yellow {
   background-color: #fff27b;
+  width: 300px;
 }
 
 .box-green {
-  background-color: #7bf191;
+  background-color: #7bff91;
 }
 
 .box-pink {
   background-color: #ff7be2;
+  width: 400px;
 }
 
 .box-orange {
-  background-color: #ffcc7b;
+  background-color: #ffc67b;
+  width: 400px;
 }
 
 .box-sky {

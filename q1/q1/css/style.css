@@ -12,19 +12,19 @@
 }
 
 .dark-box {
-  display: inline-block;
   background-color: #a4b3e9;
   font-size: 16px;
-  padding: 10px;
+  padding:10px;
 }
 
 /* text-align */
 .text-align-box .white-box {
   text-align: center;
+  padding: 20px 0;
 }
 
 .text-align-box .label {
-  margin: 20px 0;
+  display: inline-block;
 }
 
 /* margin */
@@ -33,7 +33,6 @@
 }
 
 .margin-label {
-  display: block;
   width: 90px;
   margin: 0 auto;
   text-align: center;
@@ -44,7 +43,7 @@
   display: table;
 }
 
-.table-cell-box {
+.table-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -53,7 +52,6 @@
 .table-label {
   display: inline-block;
   background-color: #fff;
-  font-size: 16px;
   padding: 10px;
 }
 
@@ -73,6 +71,9 @@
 /* position */
 .position-box {
   position: relative;
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
 }
 
 .position-label {

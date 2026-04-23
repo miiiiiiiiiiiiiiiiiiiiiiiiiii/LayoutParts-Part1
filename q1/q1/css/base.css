@@ -39,13 +39,3 @@ h1, h2, h3 {
   padding: 20px 20px;
   background-color: #a4e4f1;
 }
-
-.container {
-  display: inline-block;
-  width: 250px;
-  height: 150px;
-  margin: 0 auto;
-  background-color: #FFF;
-  font-size: 16px;
-  vertical-align: top;
-}
